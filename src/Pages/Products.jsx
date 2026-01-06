@@ -18,10 +18,7 @@ function Products() {
 
    return (
      <> 
-       <div>
-        <button onClick={handlecount}>Count {count}</button>
-      </div> 
-     
+       
    
        <h1>Ecommerce</h1>
       <div style={{ display: "flex", flexWrap: "wrap" }}>

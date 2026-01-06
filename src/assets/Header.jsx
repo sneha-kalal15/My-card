@@ -11,11 +11,11 @@ function Header() {
   <b>MY MART</b>
   </div>
   <nav style={{display:'flex' ,gap:'20px',alignItems:'center'}}>
-    <Link to={'/'}><a href="">Home</a></Link>
+    <Link to={'/Home'}><a href="">Home</a></Link>
     <Link to={'/about'}><a href="">About</a></Link>
     <Link to={'/register'}><a href="">Register</a></Link>
     <Link to={'/login'}><a href="">Login</a></Link>
-    <Link to={'/products'}><a href="">Products</a></Link>
+    <Link to={'/Products'}><a href="">Products</a></Link>
   </nav>
 </header>
 </div>
